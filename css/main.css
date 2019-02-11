@@ -1,0 +1,45 @@
+/* 
+- L'application est décollée des bords du body de 40px
+- La largeur maximal de l'application est 800px
+- L'application est centrée dans la page
+- A partir de 800px, les articles sont sur 2 colonnes
+*/
+    body{
+        padding: 6rem
+    }
+
+    header, main, footer{
+        max-width: 80rem;
+        margin: auto;
+    }
+/**/
+
+/* 
+Requête media
+*/
+    @media screen and (min-width: 800px){
+        main{
+            display: -webkit-flex;
+            display: -moz-flex;
+            display: -ms-flex;
+            display: -o-flex;
+            display: flex;
+
+            -webkit-justify-content: space-between;
+            -moz-justify-content: space-between;
+            -ms-justify-content: space-between;
+            -o-justify-content: space-between;
+            justify-content: space-between;
+
+            -webkit-flex-wrap: wrap;
+            -moz-flex-wrap: wrap;
+            -ms-flex-wrap: wrap;
+            -o-flex-wrap: wrap;
+            flex-wrap: wrap;
+        }
+
+        article{
+            width: calc(50% - 2rem);
+        }
+    }
+/**/
