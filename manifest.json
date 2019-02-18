@@ -5,7 +5,7 @@
     "short_name": "New app",
     "scope": "https://dws-paris.github.io/ECV_pwa_b2/",
     "display": "standalone",
-    "start_url": "/?homescreen=1",
+    "start_url": "/ECV_pwa_b2/?homescreen=1",
     "description": "New App, une application Web pour rester informé",
     "orientation": "portrait",
     "theme_color": "#999999",
