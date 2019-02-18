@@ -5,7 +5,7 @@
     "short_name": "New app",
     "scope": "/",
     "display": "standalone",
-    "start_url": "/",
+    "start_url": "/?homescreen=1",
     "description": "New App, une application Web pour rester informé",
     "orientation": "portrait",
     "theme_color": "#999999",
