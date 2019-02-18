@@ -3,7 +3,7 @@
     "lang": "en",
     "name": "New app : resté informé tout le temps",
     "short_name": "New app",
-    "scope": "/ECV_pwa_b2",
+    "scope": "https://dws-paris.github.io/ECV_pwa_b2/",
     "display": "standalone",
     "start_url": "/?homescreen=1",
     "description": "New App, une application Web pour rester informé",
